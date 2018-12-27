@@ -8,6 +8,8 @@ import numpy as np    # for mathematical operations
 from keras.utils import np_utils
 from skimage.transform import resize   # for resizing images
 count = 0
+
+#Have already generated dataset
 videoFile = "Tom and jerry.mp4"
 cap = cv2.VideoCapture(videoFile)   # capturing the video from the given path
 frameRate = cap.get(5) #frame rate
@@ -22,3 +24,4 @@ while(cap.isOpened()):
         cv2.imwrite(filename, frame)
 cap.release()
 print ("Done!")
+
