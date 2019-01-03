@@ -13,7 +13,7 @@ from keras.models import Sequential
 from keras.applications.vgg16 import VGG16
 from keras.layers import Dense, InputLayer, Dropout
 
-data = pd.read_csv('mapping.csv')     # reading the csv file
+data = pd.read_csv('./mappings/mapping.csv')     # reading the csv file
 data.head()      # printing first five rows of the file
 X = [ ]     # creating an empty array
 for img_name in data.Image_ID:

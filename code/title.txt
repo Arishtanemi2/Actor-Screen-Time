@@ -1,0 +1,2 @@
+Real Time Video Clip Genre Recognition by extraction of temporal audio and image 
+features using a Convolutional Recurrent neural network
